@@ -9,7 +9,7 @@ if annualSales >= 500000:
 elif annualSales >= 300000:
     print("Dear Gold Customer")
 
-elif not annualSales <= 100000 and newCustomer:
+elif not annualSales >= 100000 and newCustomer:
     print("Dear Silver Customer")
 
     if region == "South":
@@ -18,12 +18,6 @@ elif not annualSales <= 100000 and newCustomer:
 
 else:
     print("Dear Up and Coming Customer, ")
-
-
-    def fullName(firstName, lastName):
-        print(f"{firstName}, {lastName}")
-
-fullName("Indigo", "Devine")
 
 print("thank you for purchasing")
 print("We are highly appreciative!")
